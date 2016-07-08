@@ -1,0 +1,10 @@
+{
+    "project_name": "New Plugin",
+    "repo_name": "{{ 'qp-%s' % cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "organization_name": "qiita-spots",
+    "module_name": "{{ cookiecutter.repo_name.replace('-', '_') }}",
+    "author": "Qiita development team",
+    "email": "qiita.help@gmail.com",
+    "URL": "{{ 'https://github.com/%s/%s' % (cookiecutter.organization_name, cookiecutter.repo_name) }}",
+    "license": ["BSD 3-clause License", "MIT License", "Apache Software License 2.0"]
+}
