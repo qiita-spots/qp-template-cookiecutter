@@ -65,8 +65,8 @@ Follow the instructions within the comments. The following list contains a
 general overview of what's required in those TODO sections:
 
 - File ``README.rst``: Add a description of the commands added by the plugin
-- File ``module_name/plugin.py``: Add the relevant submodule imports and the correct mapping between Qiita's command name and the python functions executing those commands
-- File ``module_name/tests/test_plugin.py``: Adding tests here is creating "integration" tests for the plugin
+- File ``module_name/__init__.py``: Create the QiitaCommands and register them to the plugin.
+- Create your own module files with the functions executing the actual commands and the tests for those functions.
 
 Once all the TODO's are completed, your can upload your code to github and see
 the tests run (if travis and coveralls are enabled).
