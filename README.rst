@@ -41,9 +41,9 @@ Example:
 
     $ cookiecutter /Users/jose/qiime_software/qp-template-cookiecutter/
     project_name [New Plugin]: Target Gene
-    repo_name [qp-target-gene]:
+    repo_name [qp-target-gene]: qp-target-gene
     organization_name [qiita-spots]:
-    module_name [qp_target_gene]:
+    module_name [qp_target_gene]: qp-target-gene
     author [Qiita development team]:
     email [qiita.help@gmail.com]:
     URL [https://github.com/qiita-spots/qp-target-gene]:
